@@ -1,14 +1,12 @@
-django-selectize
-================
+django-selectize-example
+========================
 
 ## Usage
 
-* Create database: `python manage.py syncdb`
-* Load fixtures: `python manage.py loaddata <fixturename>`
+* Install django-selectize: `pip install django-selectize`
 * Run the server: `python manage.py runserver`
 
 ## Openshift conf
 
-user name: djangoer@gmail.com
-
-login url: `ssh://53ccde635973ca7c96000300@selectize-djangoer.rhcloud.com/~/git/selectize.git/`
+* user name: djangoer0@gmail.com
+* ssh url: `ssh://53ccde635973ca7c96000300@selectize-djangoer.rhcloud.com/~/git/selectize.git/`

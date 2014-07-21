@@ -1,18 +1,10 @@
-try:
-	from setuptools import setup
-except ImportError:
-	from distutils.core import setup
+from setuptools import setup
 
-setup(name='django-selectize',
-	version='1.1',
-	description='django-selectize is a Django app based on Selectize.js that help you to create Select and Multiselect widgets in Django forms.',
-    author='Djangoer',
-    author_email='djangoer0@gmail.com',
-    url='https://github.com/djangoer/django-selectize',
-	packages=['selectize','selectize.templatetags'],#py_modules=['modoscript'],
-	include_package_data=True,#package_data = {'package' : ["selectize/static/*"] },
-	install_requires=[
-		"Django",	
-	],
-	zip_safe=False,
-)
+setup(name='YourAppName',
+      version='1.0',
+      description='OpenShift App',
+      author='Your Name',
+      author_email='example@example.com',
+      url='http://www.python.org/sigs/distutils-sig/',
+#      install_requires=['Django>=1.3'],
+     )
